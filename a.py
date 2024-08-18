@@ -10,22 +10,20 @@ import pandas as pd
 
 import streamlit as st
 
-# Example HTML content
-html_content = """
+walker = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Streamlit HTML</title>
+    <title>Test</title>
 </head>
 <body>
-    <h1>Welcome to Streamlit</h1>
-    <p>This is a test of the HTML component.</p>
+    <h1>Hello, World!</h1>
 </body>
 </html>
 """
+st.components.v1.html(walker, width=600, height=400)
 
-# Render the HTML content
-st.components.v1.html(html_content, width=700, height=500)
+
 
 
 #Setting up web app page
